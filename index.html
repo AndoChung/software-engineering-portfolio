@@ -5,48 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
     <title>Andy Chung</title>
 </head>
 <body>
-    <div>
-        <section id="navigation-section">
-            <div id="navbar">
-                <ul>
-                    <li>-</li>
-                    <li>AC.</li>
-                    <li>
-                        <button>CONTACT ME</button>
-                    </li>
-                </ul>
+    <div class="page">
+        <section class="main-section navigation-section">
+            <div class="page-width">
+                <div class="navbar">
+                    <ul>
+                        <li>-</li>
+                        <li>AC.</li>
+                        <li>
+                            <button class="small-button">CONTACT ME</button>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
-        <section id="header-section">
+        <section class="main-section header-section">
             <div class="page-width">
                 <div class="header-section-information">
                     <h1>Andy Chung</h1>
                     <span>Full-Stack Software Engineer</span>
                     <div class="header-section-information-buttons">
-                        <button class="button-size-big">About Me</button>
+                        <button class="big-button">About Me</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="resume-section">
+        <section class="main-section resume-section">
             <div class="page-width">
                 <div class="resume-section-information">
                     <p>I am an enthusiastic software developer with an eagerness to learn and apply new technologies!</p>
-                    <button class="button-size-big">Resume</button>
+                    <button class="big-button">Resume</button>
                 </div>
             </div>
         </section>
-        <section id="project-section">
+        <section class="main-section project-section">
             <div class="page-width">
                 <div class="project-section-information">
                     <h2>My Work</h2>
-                    <a href="">Github</a>
+                    <button class="bit-button">GITHUB</button>
                 </div>
                 <div class="project-section-grid">
-                    <article class="project-one project project-rectangle">
+                    <article class="project-one">
                         <span>Project Genre</span>
                         <h3>Project Title</h3>
                         <p>Project Description</p>
@@ -55,7 +58,7 @@
                             <a>Live Site</a>
                         </div>
                     </article>
-                    <article class="project-two project project-square">
+                    <article class="project-two">
                         <span>Project Genre</span>
                         <h3>Project Title</h3>
                         <p>Project Description</p>
@@ -64,7 +67,7 @@
                             <a>Live Site</a>
                         </div>
                     </article>
-                    <article class="project-three project project-rectangle">
+                    <article class="project-three">
                         <span>Project Genre</span>
                         <h3>Project Title</h3>
                         <p>Project Description</p>
@@ -73,7 +76,7 @@
                             <a>Live Site</a>
                         </div>
                     </article>
-                    <article class="project-four project project-square">
+                    <article class="project-four">
                         <span>Project Genre</span>
                         <h3>Project Title</h3>
                         <p>Project Description</p>
@@ -85,7 +88,7 @@
                 </div>
             </div>
         </section>
-        <section id="skill-section">
+        <section class="main-section skill-section">
             <div class="page-width">
                 <div class="skill-section-information">
                     <h2>Skills</h2>
@@ -113,7 +116,7 @@
                 </div>
             </div>
         </section>
-        <section id="about-section">
+        <section class="main-section about-section">
             <div class="page-width">
                 <div class="about-section-information">
                     <h2>ABOUT ME</h2>
@@ -123,8 +126,26 @@
                 </div>
             </div>
         </section>
-        <section id="contact-section">
-            
+        <section class="main-section contact-section">
+            <div class="page-width">
+                <div class="contact-section-information">
+                    <div class="contact-section-text">
+                        <h2>CONTACT</h2>
+                        <p>Interested in working together? Let's connect via email</p>
+                    </div>
+                    <div class="contact-section-links">
+                        insert font awesome for linked in and email
+                    </div>
+                </div>
+                <form>
+                    <div>
+                        <input placeholder="Name" name="name">
+                        <input placeholder="Email" name="mail">
+                        <input placeholder="Subject" name="subject">
+                    </div>
+                    <input placeholder="Message" name="comment">
+                </form>
+            </div>
         </section>
     </div>
 </body>
