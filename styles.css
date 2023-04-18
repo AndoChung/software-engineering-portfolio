@@ -1,10 +1,13 @@
-
+* {
+    margin:0;
+}
 .page {
     width: 100%;
+    font-family: "Outfit"
 }
 
 .page-width {
-    width: 50%;
+    width: 80%;
 }
 
 .main-section {
@@ -15,6 +18,12 @@
 /*****************************************************************
 ***** Navigation Section *****
 *****************************************************************/
+.navigation-section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,1);
+}
 
 .navbar ul {
     display: flex;
@@ -26,9 +35,112 @@
 /*****************************************************************
 ***** Header Section *****
 *****************************************************************/
+.header-section {
+    height: 100vh;
+    background-color: rgba(245,245,245,1)
+}
 
-
+.header-section > div {
+    display: flex;
+    align-items: center;
+}
 
 /*****************************************************************
 ***** Resume Section *****
 *****************************************************************/
+.resume-section {
+    background-color: aqua
+}
+
+.resume-section-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*****************************************************************
+***** Project Section *****
+*****************************************************************/
+.project-section {
+    background-color: rgba(245,245,245,1)
+}
+
+.project-section-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-section-grid {
+    display: grid;
+    grid-auto-columns: auto auto auto;
+    grid-auto-rows: 400px 400px;
+}
+
+.project-one {
+    background-color: red;
+    grid-column: 1 / span 2;
+    margin: 0 10px 10px 0;
+}
+.project-two {
+    background-color: blue;
+    margin: 0 0 10px 10px;
+}
+.project-three {
+    background-color: blue;
+    margin: 10px 10px 0 0;
+}
+.project-four {
+    background-color: red;
+    grid-column: 2/ span 2;
+    margin: 10px 0 0 10px;
+}
+
+
+
+
+/*****************************************************************
+***** Skill Section *****
+*****************************************************************/
+.skill-section {
+    background-color: aqua;
+}
+
+.skill-section > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-list-column > ul {
+    list-style-type: none;
+}
+
+
+/*****************************************************************
+***** About Section *****
+*****************************************************************/
+.about-section {
+    background-color: rgba(245,245,245,1);
+    height: 100vh;
+}
+
+.about-section-information {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*****************************************************************
+***** Contact Section *****
+*****************************************************************/
+
+
