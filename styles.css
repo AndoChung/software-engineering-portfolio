@@ -3,7 +3,8 @@
 }
 .page {
     width: 100%;
-    font-family: "Outfit"
+    font-family: "Jost";
+    font-family: "Urbanist";
 }
 
 .page-width {
@@ -15,6 +16,43 @@
     justify-content: center;
 }
 
+.big-button {
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 250ms;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.big-button:hover {
+    border-radius: 15px;
+}
+
+.small-button {
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 250ms;
+    width: 150px;
+    height: 38px;
+    text-align: center;
+}
+
+.small-button:hover {
+    border-radius: 10px;
+}
+
+
 /*****************************************************************
 ***** Navigation Section *****
 *****************************************************************/
@@ -23,6 +61,11 @@
     top: 0;
     width: 100%;
     background-color: rgba(255,255,255,1);
+    height: 68px;
+}
+
+.navbar {
+    height: 100%;
 }
 
 .navbar ul {
@@ -30,6 +73,19 @@
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+}
+
+.navbar ul li {
+    font-size: 30px;
+    width: 150px;
+
+}
+
+.name-logo {
+    text-align: center;
 }
 
 /*****************************************************************
@@ -37,7 +93,7 @@
 *****************************************************************/
 .header-section {
     height: 100vh;
-    background-color: rgba(245,245,245,1)
+    background-color: rgba(240,240,240,1)
 }
 
 .header-section > div {
@@ -45,24 +101,56 @@
     align-items: center;
 }
 
+.header-section-information {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 115px;
+    
+}
+
+.header-section-information span {
+    font-size: 60px;
+}
+
+.header-section-information button {
+    margin: 20px 0 0 0;
+}
+
 /*****************************************************************
 ***** Resume Section *****
 *****************************************************************/
 .resume-section {
-    background-color: aqua
+    background-image: linear-gradient(to right, rgb(129, 218, 218), rgb(131, 236, 222));
+    height: 160px;
 }
 
 .resume-section-information {
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items:center;
+}
+
+.resume-section-information p {
+    width: 65%;
+    font-size: 36px;
+    color: white;
+    line-height: 35px;
+}
+
+.resume-section-information button {
+    background-color: white;
+    color: black;
 }
 
 /*****************************************************************
 ***** Project Section *****
 *****************************************************************/
 .project-section {
-    background-color: rgba(245,245,245,1)
+    background-color: rgba(240,240,240,1)
 }
 
 .project-section-information {
@@ -70,6 +158,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
+}
+
+.project-section-information h2 {
+    font-size: 40px
 }
 
 .project-section-grid {
@@ -127,7 +220,7 @@
 ***** About Section *****
 *****************************************************************/
 .about-section {
-    background-color: rgba(245,245,245,1);
+    background-color: rgba(240,240,240,1);
     height: 100vh;
 }
 
