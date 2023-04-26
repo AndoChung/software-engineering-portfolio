@@ -285,7 +285,7 @@ h1 {
 .about-section-information p {
     font-size: 3.6rem;
     margin: 22px 0;
-    line-height: 40px;
+    line-height: 3.6rem;
     width: 80%;
 }
 
@@ -443,13 +443,17 @@ h1 {
     .skill-section {
         height: 220px;
     }
-
 }
 
 @media screen and (max-width:600px) {
+    /***** Navigation Section *****/
+    .navigation-section {
+
+    }
+
     /***** Skill Section ****/
     .skill-section {
-        height: 400px;
+        height: 300px;
     }
     
     .skill-section .page-width {
@@ -482,4 +486,22 @@ h1 {
         grid-row: 4;
         grid-column: 1;
     }
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 45%;
+
+    }
+}
+
+@media screen and (max-width: 300px) {
+    html {
+        font-size: 38%;
+    }
+}
+
+
+@media screen and (max-height: 600px) {
+    
 }
